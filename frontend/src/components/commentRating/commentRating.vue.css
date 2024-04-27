@@ -1,0 +1,71 @@
+.comment-rating {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .rating,
+  .comments {
+    flex: 1;
+  }
+  
+  .rating-stars {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .rating-stars .filled {
+    color: #ffc107;
+  }
+  
+  .comment-input {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .comment-input textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .comment-input button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .comment-list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .comment {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-meta {
+    font-size: 12px;
+    color: #888;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+    /* making the component mobile responsive by ussing media quiries */
+  
+  @media (max-width: 768px) {
+    .comment-rating {
+      flex-direction: column;
+    }
+  }

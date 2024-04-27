@@ -1,0 +1,49 @@
+.section-cards {
+    padding: 60px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-intro {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .section-intro h2 {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+  }
+  
+  .section-intro p {
+    font-size: 18px;
+    color: var(--text-color);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  /* making the component mobile responsive by ussing media quiries */
+  
+  @media (max-width: 768px) {
+    .section-cards {
+      padding: 30px;
+    }
+  
+    .section-intro h2 {
+      font-size: 28px;
+    }
+  
+    .section-intro p {
+      font-size: 16px;
+    }
+  
+    .card-container {
+      gap: 30px;
+    }
+  }

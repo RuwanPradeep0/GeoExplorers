@@ -1,0 +1,24 @@
+.hero {
+    background-image: url('../../assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .hero-content button{
+    border-radius: 8px;
+  }
