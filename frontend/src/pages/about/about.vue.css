@@ -2,6 +2,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+
   }
   .about-header {
     text-align: center;
@@ -11,13 +12,12 @@
     font-size: 32px;
     margin-bottom: 10px;
   }
-  .about-meta {
-    font-size: 14px;
-    color: #888;
-  }
+
   .about-content {
     line-height: 1.6;
-    margin-bottom: 30px;
+    
+
+    
   }
   .about-content h2 {
     font-size: 24px;
