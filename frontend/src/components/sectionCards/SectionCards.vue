@@ -38,18 +38,21 @@
           description="Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum."
           buttonText="Read More"
           :imageSrc="image01"
+          :postRoute="'/post01'"
         />
         <Card
           title="sample_2"
           description="Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum."
           buttonText="Read More"
           :imageSrc="image02"
+          :postRoute="'/post02'"
         />
         <Card
           title="sample_3"
           description="Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum"
           buttonText="Read More"
           :imageSrc="image03"
+          :postRoute="'/post03'"
         />
 
         <Card
@@ -57,6 +60,7 @@
           description="Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum."
           buttonText="Read More"
           :imageSrc="image01"
+          :postRoute="'/post04'"
         />
 
         <Card
@@ -64,6 +68,7 @@
           description="Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum."
           buttonText="Read More"
           :imageSrc="image02"
+          :postRoute="'/post05'"
         />
       </div>
     </section>

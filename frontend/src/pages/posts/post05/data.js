@@ -5,7 +5,7 @@ import image03 from '../../../assets/images/post01/image03.jpg'
 
 export default {
     post: {
-      title: 'Post Title',
+      title: 'Post Title 5',
       author: 'Mars computers',
       date: '2024-04-27',
       featuredImage:image01,
