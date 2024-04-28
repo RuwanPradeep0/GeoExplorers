@@ -7,7 +7,7 @@ export default {
 <template>
     <nav>
       <div class="logo">
-        <img src="./assets/logo.png" alt="Logo">
+        <h3>EARTHEXPLORE</h3>
       </div>
       <div class="nav-links">
         <a href="#">Home</a>

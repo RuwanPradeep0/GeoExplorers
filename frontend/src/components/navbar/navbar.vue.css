@@ -10,6 +10,10 @@ nav {
   .logo img {
     height: 40px;
   }
+
+  .logo h3 {
+    color: aliceblue;
+  }
   
   .nav-links a {
     color: #fff;
