@@ -7,7 +7,7 @@ export default {
 <template>
     <section class="hero">
       <div class="hero-content">
-        <h1>Need To add good heading here</h1>
+        <h1>Lets Serve the Environment Together</h1>
         <button>LEARN MORE</button>
       </div>
     </section>

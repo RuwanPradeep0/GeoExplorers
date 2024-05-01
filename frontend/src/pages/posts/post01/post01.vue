@@ -49,15 +49,7 @@
         <p v-for="paragraph in post.content" :key="paragraph">{{ paragraph }}</p>
       </div>
 
-      <div class="post-additional-images">
-        <div
-          v-for="image in post.additionalImages"
-          :key="image"
-          class="post-image"
-        >
-          <img :src="image" :alt="post.title" />
-        </div>
-      </div>
+      
       <CommentRating />
     </div>
   </template>

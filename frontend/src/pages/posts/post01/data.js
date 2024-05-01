@@ -1,23 +1,15 @@
-import image01 from '../../../assets/images/post01/image01.jpg'
-import image02 from '../../../assets/images/post01/image02.jpg'
-import image03 from '../../../assets/images/post01/image03.jpg'
+import image01 from '../../../assets/images/post01/sand_01.jpg'
 
 
 export default {
     post: {
-      title: 'Post Title',
-      author: 'Mars computers',
-      date: '2024-04-27',
+      title: 'heading Environment threads of Kilinochchi District',
+      author: 'M.Piraveenth',
+      date: '2024-04-10',
       featuredImage:image01,
       content: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac turpis eu lectus pharetra fringilla. Sed venenatis, libero vel ultrices volutpat, mauris eros faucibus risus, et ultrices augue augue eget nunc.',
-        'Donec vel quam vitae metus tristique feugiat. Aenean fermentum dui quis turpis scelerisque, ut finibus magna convallis. Cras ac velit vel ex bibendum sodales. Sed id justo vel tellus egestas tincidunt.',
-        'Praesent id nunc eget enim eleifend iaculis. Fusce efficitur, nunc vel lobortis placerat, mauris arcu malesuada mauris, vel ultricies augue ipsum vel eros. Nullam vel enim vel eros facilisis auctor.'
-      ],
-      additionalImages: [
-        image01,
-        image02,
-        image03
+        'The main economy of Kilinochchi district is dependent on agriculture. As a result, the livelihood lifestyle culture of the people of the region depends on the environment and nature. But today due to the economic problems prevailing in the country and the increase in the prices of farming and agricultural product, the people are in a huge economic crisis. Some individuals are looting the mineral resources of the area by taking advantage of the poverty and low poverty of the people. Exploitation of environment resources such as illegal sand mining from lakes and ponds, felling of forest trees, etc, causes environmental pollution and reason for rise high temperature.  '
       ]
+    
     }
   }

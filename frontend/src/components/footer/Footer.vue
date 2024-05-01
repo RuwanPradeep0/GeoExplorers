@@ -10,8 +10,6 @@ export default {
       <div class="footer-links">
         <h4>HOME</h4>
         <h4>ABOUT</h4>
-        <h4>SPECIES</h4>
-        <h4>AVAILABILITY</h4>
         <h4>CONTACT</h4>
       </div>
       <div class="footer-info">
