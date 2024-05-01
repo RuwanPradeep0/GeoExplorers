@@ -25,7 +25,7 @@ export default {
 <template>
   <nav>
     <div class="logo">
-      <h3 @click="navigateToHome">EARTHEXPLORE</h3>
+      <h3 @click="navigateToHome">GEOEXPLORERS</h3>
     </div>
     <div class="nav-links">
       <a href="#" @click.prevent="navigateToHome">Home</a>
